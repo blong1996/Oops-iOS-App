@@ -53,6 +53,9 @@
                                 <state key="normal" title=" LOGIN / SIGN UP ">
                                     <color key="titleColor" red="0.0036100898692810607" green="0.0036458333333333481" blue="0.0036458333333333481" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="userNameLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eBw-0d-7RU"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic" translatesAutoresizingMaskIntoConstraints="NO" id="XFA-o6-ZpD">
                                 <rect key="frame" x="51" y="28" width="273" height="160"/>
@@ -123,7 +126,7 @@
                         <outlet property="passwordField" destination="XiX-BC-HNc" id="nnx-Yp-aMv"/>
                         <outlet property="schoolField" destination="0fq-yt-5nc" id="rNm-e1-AyD"/>
                         <outlet property="usernameField" destination="UOK-dw-KaF" id="Bq2-KO-lj8"/>
-                        <segue destination="ySe-5m-8Mf" kind="show" id="XCq-Om-ArN"/>
+                        <segue destination="ySe-5m-8Mf" kind="show" identifier="welcomeSeg" id="XCq-Om-ArN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
