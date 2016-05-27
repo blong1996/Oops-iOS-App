@@ -17,6 +17,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
 		super.viewDidLoad()
 		if let _ = FBSDKAccessToken.currentAccessToken() {
 			fetchProfile()
+			performSegueWithIdentifier("welcomeSeg", sender: nil)
 			
 		}
 
@@ -47,8 +48,13 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     }
 	@IBAction func userNameLogin(sender: AnyObject) {
 		// login/sign up button pressed, trigger welcome segue
+		if let _ = FBSDKAccessToken.currentAccessToken() {
+			fetchProfile()
+			
+		} else {
 		
 		performSegueWithIdentifier("welcomeSeg", sender: nil)
+		}
 	}
 	let loginButton: FBSDKLoginButton = {
 		let button = FBSDKLoginButton()
@@ -56,12 +62,17 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
 		button.translatesAutoresizingMaskIntoConstraints = false
 		return button
 	}()
+		
 	
+	@IBAction func loginFB(sender: AnyObject) {
+		fetchProfile()
+	}
 
 	
 	func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
 		
 		if error == nil {
+			fetchProfile()
 			// if login successful, continue to welcome screen
 			performSegueWithIdentifier("welcomeSeg", sender: nil)
 			
@@ -77,6 +88,8 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
 	
 	func fetchProfile() {
 		// retreive profile data
+		
+		
 		let parameters = ["fields": "email, first_name, last_name"]
 		FBSDKGraphRequest(graphPath: "me", parameters: parameters).startWithCompletionHandler({ (connection, user, requestError) -> Void in
 			
