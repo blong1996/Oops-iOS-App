@@ -431,8 +431,9 @@
 				);
 				INFOPLIST_FILE = "oops App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.henryakaeze.oops-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMCF-Hackers-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -446,8 +447,9 @@
 				);
 				INFOPLIST_FILE = "oops App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.henryakaeze.oops-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMCF-Hackers-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
 
 class ViewController: UIViewController {
+	
+	@IBOutlet var facebookLoginButton: FBSDKLoginButton!
+	
     @IBOutlet weak var schoolField: UITextField!
 
     @IBOutlet weak var usernameField: UITextField!
@@ -24,4 +29,22 @@ class ViewController: UIViewController {
     
     }
 }
+extension ViewController: FBSDKLoginButtonDelegate {
+	
+	func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
+		if error == nil {
+			// if login successful, continue to welcome screen
+			
+			
+		} else {
+			print(error.localizedDescription)
+		}
+	}
+	
+	func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
+		print("logged out successfully!")
+	}
+	
+}
+
 
