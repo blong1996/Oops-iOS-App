@@ -12,8 +12,10 @@
 		25AAB82E1CF8053B00B9AABB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AAB82B1CF8053B00B9AABB /* FBSDKLoginKit.framework */; };
 		25AAB82F1CF8053B00B9AABB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AAB82C1CF8053B00B9AABB /* FBSDKShareKit.framework */; };
 		25AAB8321CF82BC900B9AABB /* ProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB8311CF82BC900B9AABB /* ProblemViewController.swift */; };
-		25AAB8341CF82BD600B9AABB /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB8331CF82BD600B9AABB /* CongratsViewController.swift */; };
 		25AAB8361CF82E3A00B9AABB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25AAB8351CF82E3A00B9AABB /* GoogleService-Info.plist */; };
+		25AAB83E1CF8C0FF00B9AABB /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB83D1CF8C0FF00B9AABB /* LogoutViewController.swift */; };
+		25AAB8401CF8C75800B9AABB /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB83F1CF8C75800B9AABB /* CongratsViewController.swift */; };
+		25AAB8421CF8C87300B9AABB /* CongratsViewCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB8411CF8C87300B9AABB /* CongratsViewCon.swift */; };
 		509F6AEC918E496CCE6BF0F4 /* Pods_oops_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1803306AA4BDBFBF257799C2 /* Pods_oops_App.framework */; };
 		75B427EE56B9861A430F83EF /* Pods_oops_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A751B832D78E4B57AC4355DB /* Pods_oops_AppUITests.framework */; };
 		CE55E3C91CF7C0CA0066FD8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55E3C81CF7C0CA0066FD8E /* AppDelegate.swift */; };
@@ -50,8 +52,10 @@
 		25AAB82B1CF8053B00B9AABB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		25AAB82C1CF8053B00B9AABB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		25AAB8311CF82BC900B9AABB /* ProblemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemViewController.swift; sourceTree = "<group>"; };
-		25AAB8331CF82BD600B9AABB /* CongratsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
 		25AAB8351CF82E3A00B9AABB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25AAB83D1CF8C0FF00B9AABB /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		25AAB83F1CF8C75800B9AABB /* CongratsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
+		25AAB8411CF8C87300B9AABB /* CongratsViewCon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratsViewCon.swift; sourceTree = "<group>"; };
 		7D95179A709CDFED1672DC14 /* Pods-oops AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oops AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oops AppUITests/Pods-oops AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		860AF32D93BC4609502214A5 /* Pods-oops App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oops App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oops App/Pods-oops App.debug.xcconfig"; sourceTree = "<group>"; };
 		A751B832D78E4B57AC4355DB /* Pods_oops_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oops_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +139,6 @@
 		CE55E3BC1CF7C0CA0066FD8E = {
 			isa = PBXGroup;
 			children = (
-				25AAB8331CF82BD600B9AABB /* CongratsViewController.swift */,
 				25AAB8311CF82BC900B9AABB /* ProblemViewController.swift */,
 				CE55E3C71CF7C0CA0066FD8E /* oops App */,
 				CE55E3DC1CF7C0CA0066FD8E /* oops AppTests */,
@@ -167,6 +170,9 @@
 				CE55E3D11CF7C0CA0066FD8E /* LaunchScreen.storyboard */,
 				CE55E3D41CF7C0CA0066FD8E /* Info.plist */,
 				25AAB8351CF82E3A00B9AABB /* GoogleService-Info.plist */,
+				25AAB83D1CF8C0FF00B9AABB /* LogoutViewController.swift */,
+				25AAB83F1CF8C75800B9AABB /* CongratsViewController.swift */,
+				25AAB8411CF8C87300B9AABB /* CongratsViewCon.swift */,
 			);
 			path = "oops App";
 			sourceTree = "<group>";
@@ -453,10 +459,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25AAB8341CF82BD600B9AABB /* CongratsViewController.swift in Sources */,
 				CE55E3F71CF7EECC0066FD8E /* WelcomeViewController.swift in Sources */,
 				CE55E3CB1CF7C0CA0066FD8E /* ViewController.swift in Sources */,
 				25AAB8321CF82BC900B9AABB /* ProblemViewController.swift in Sources */,
+				25AAB8401CF8C75800B9AABB /* CongratsViewController.swift in Sources */,
+				25AAB83E1CF8C0FF00B9AABB /* LogoutViewController.swift in Sources */,
+				25AAB8421CF8C87300B9AABB /* CongratsViewCon.swift in Sources */,
 				CE55E3C91CF7C0CA0066FD8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
