@@ -9,7 +9,7 @@ With Oops! students are guided to the correct answer by being told their mistake
 Currentlty, users can login using their facebook account, enter in single operation problem (i.e. 4 * 5, 6 / 2), and log back out again.
 
 
-## The team
+## The Team
 
 This iOS Application was created during the TMCF 2016 OFC Hackathon in Atlanta, GA by the following team members:
 
@@ -21,7 +21,7 @@ Henry Akaeze - Computer Science & Mathematics - Mississippi V. State University 
 
 Tache Johnson -  Computer Science & Mathematics - Cheyney University - Jr
 
-## What we used
+## What We Used
 
 This project uses Swift, Facebook API, and CocoaPods. 
 
