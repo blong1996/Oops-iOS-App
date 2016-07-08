@@ -1,13 +1,12 @@
 # Oops! (Second Place Team)
 
-Oops is an app meant to help students solve their math problems without directly providing them with the solution to their problem. In most math apps, you can easily enter your problem and receive the steps to solve it along with the answer in a matter of seconds. Although this may seem ideal, nothing is truly being learned from it.
+Oops is an app meant to help students solve their math problems without directly providing them with the solution to their problem. In most math apps, you can easily enter your problem and receive the steps to solve it along with the answer in a matter of seconds. Although this may seem ideal, nothing is truly being learned from that.
 
 With Oops! students are guided to the correct answer by being told their mistakes and given friendly scenarios to help them figure out the correct answer. 
 
 ## Current Working Features
 
-Currentlty, users can login using their facebook account, enter in single operation problem (i.e. 4 * 5, 6 / 2), and log back out again.
-
+Currently, users can log in using their facebook account, enter in a single operator problem (i.e. 4 * 5, 6 / 2), and log back out again.
 
 ## The Team
 
